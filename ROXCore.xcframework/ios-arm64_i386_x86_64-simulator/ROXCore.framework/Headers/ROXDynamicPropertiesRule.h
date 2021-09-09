@@ -8,5 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-typedef NSObject* _Nullable (^ROXDynamicPropertyContext)(NSString* _Nonnull propName);
-typedef NSObject* _Nullable (^ROXDynamicPropertiesRule)(NSString* _Nonnull propName, ROXDynamicPropertyContext _Nonnull context);
+@interface ROXDynamicPropertyContext : NSObject<NSCopying>
+-(instancetype)initWithValues:(NSDictionary* _Nonnull)values;
+-(instancetype)initMerged:(ROXDynamicPropertyContext*  _Nonnull)globalContext localContext:(ROXDynamicPropertyContext*  _Nonnull)localContext;
+-(NSObject* _Nullable)get:(NSString* _Nonnull)propName;
+@end
+
+typedef NSObject* _Nullable (^ROXDynamicPropertiesRule)(NSString* _Nonnull propName, ROXDynamicPropertyContext* _Nonnull context);

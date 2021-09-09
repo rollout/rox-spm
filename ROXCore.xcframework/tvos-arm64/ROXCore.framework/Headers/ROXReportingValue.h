@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ROXDynamicPropertiesRule.h"
 
 /**
  This class contains data about values of an experiement
  
- @see `ROXExperiment`
  @see `ROXOMetadata`
  */
 
@@ -25,6 +25,8 @@
  Value of the reporting
  */
 @property (nonatomic, readonly) NSString* value;
+
+@property (nonatomic, readonly) ROXDynamicPropertyContext* context;
 /**
  Whether the flag is active.
  */
@@ -32,6 +34,6 @@
 /**
  :nodoc:
  */
-- (instancetype)initWithName:(NSString*)name value:(NSString*)value targeting:(BOOL)targeting;
+- (instancetype)initWithName:(NSString*)name value:(NSString*)value targeting:(BOOL)targeting context:(ROXDynamicPropertyContext*) context;
 
 @end

@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 - (NSString*)value;
-- (NSString*)value:(ROXDynamicPropertyContext _Nullable)context;
+- (NSString*)value:(ROXDynamicPropertyContext* _Nullable)context;
 - (NSString*)defaultValue;
 - (void)forceValue:(NSString*)value;
 - (void)unfreeze;

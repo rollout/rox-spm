@@ -15,7 +15,6 @@
 #import "ROXFreeze.h"
 #import "ROXFetcherResult.h"
 #import "ROXReportingValue.h"
-#import "ROXExperiment.h"
 #import "ROXFlagsOverrides.h"
 #import "ROXErrorHandling.h"
 #import "ROXDynamicAPI.h"
@@ -130,7 +129,7 @@ typedef NS_ENUM(NSUInteger, ROXCoreState) {
  @param block this block will get invoked when trying to evaluate the value of the property
  
  */
-+(void) setCustomComputedStringProperty:(NSString* _Nullable (^_Nonnull)(NSString* _Nonnull, ROXDynamicPropertyContext _Nonnull))block forKey:(NSString* _Nonnull)key;
++(void) setCustomComputedStringProperty:(NSString* _Nullable (^_Nonnull)(NSString* _Nonnull, ROXDynamicPropertyContext* _Nonnull))block forKey:(NSString* _Nonnull)key;
 
 /**
  Sets a custom property value that can be used when creating target groups.
@@ -152,7 +151,7 @@ typedef NS_ENUM(NSUInteger, ROXCoreState) {
  @param block this block will get invoked when trying to evaluate the value of the property
  
  */
-+(void) setCustomComputedBooleanProperty:(BOOL (^_Nullable)(NSString* _Nullable, ROXDynamicPropertyContext _Nonnull))block forKey:(NSString*_Nonnull)key;
++(void) setCustomComputedBooleanProperty:(BOOL (^_Nullable)(NSString* _Nullable, ROXDynamicPropertyContext* _Nonnull))block forKey:(NSString*_Nonnull)key;
 
 /**
  Sets a custom property value that can be used when creating target groups.
@@ -174,7 +173,7 @@ typedef NS_ENUM(NSUInteger, ROXCoreState) {
  @param block this block will get invoked when trying to evaluate the value of the property
  
  */
-+(void) setCustomComputedIntProperty:(int (^_Nonnull)(NSString* _Nonnull, ROXDynamicPropertyContext _Nonnull))block forKey:(NSString*_Nonnull)key;
++(void) setCustomComputedIntProperty:(int (^_Nonnull)(NSString* _Nonnull, ROXDynamicPropertyContext* _Nonnull))block forKey:(NSString*_Nonnull)key;
 
 /**
  Sets a custom property value that can be used when creating target groups.
@@ -196,7 +195,7 @@ typedef NS_ENUM(NSUInteger, ROXCoreState) {
  @param block this block will get invoked when trying to evaluate the value of the property
  
  */
-+(void) setCustomComputedDoubleProperty:(double (^_Nonnull)(NSString* _Nonnull, ROXDynamicPropertyContext _Nonnull))block forKey:(NSString*_Nonnull)key;
++(void) setCustomComputedDoubleProperty:(double (^_Nonnull)(NSString* _Nonnull, ROXDynamicPropertyContext* _Nonnull))block forKey:(NSString*_Nonnull)key;
 
 /**
  Sets a custom property value that can be used when creating target groups.
@@ -218,12 +217,12 @@ typedef NS_ENUM(NSUInteger, ROXCoreState) {
  @param block this block will get invoked when trying to evaluate the value of the property
  
  */
-+(void) setCustomComputedSemverProperty:(NSString* _Nullable (^_Nonnull)(NSString* _Nonnull, ROXDynamicPropertyContext _Nonnull))block forKey:(NSString*_Nonnull)key;
++(void) setCustomComputedSemverProperty:(NSString* _Nullable (^_Nonnull)(NSString* _Nonnull, ROXDynamicPropertyContext* _Nonnull))block forKey:(NSString*_Nonnull)key;
 
 /**
   Sets a dynamic property context that will be used as a default for each flag evaluation.
  */
-+(void) setGlobalDynamicPropertyContext:(ROXDynamicPropertyContext _Nullable)context;
++(void) setGlobalDynamicPropertyContext:(ROXDynamicPropertyContext* _Nullable)context;
 
 /**
  :nodoc:

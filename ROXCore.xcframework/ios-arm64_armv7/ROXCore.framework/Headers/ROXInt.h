@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (int)value;
 
-- (int)value:(ROXDynamicPropertyContext _Nullable)context;
+- (int)value:(ROXDynamicPropertyContext* _Nullable)context;
 
 - (instancetype)initWithDefault:(int)defaultValue;
 

@@ -18,19 +18,19 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWith:(ROXFeatureFlagsRepository*)flagsRepository;
 
 - (BOOL)isEnabled:(NSString*)name withDefault:(BOOL)defaultValue;
-- (BOOL)isEnabled:(NSString*)name withDefault:(BOOL)defaultValue context:(ROXDynamicPropertyContext _Nullable)context;
+- (BOOL)isEnabled:(NSString*)name withDefault:(BOOL)defaultValue context:(ROXDynamicPropertyContext* _Nullable)context;
 
 - (NSString*)getValue:(NSString*)name withDefault:(NSString*)defaultValue;
 - (NSString*)getValue:(NSString*)name withDefault:(NSString*)defaultValue variations:(NSArray<NSString*>*)variations;
-- (NSString*)getValue:(NSString*)name withDefault:(NSString*)defaultValue variations:(NSArray<NSString*>*)variations context:(ROXDynamicPropertyContext _Nullable)context;
+- (NSString*)getValue:(NSString*)name withDefault:(NSString*)defaultValue variations:(NSArray<NSString*>*)variations context:(ROXDynamicPropertyContext* _Nullable)context;
 
 - (int)getInt:(NSString*)name withDefault:(int)defaultValue;
 - (int)getInt:(NSString*)name withDefault:(int)defaultValue variations:(NSArray<NSNumber*>*)variations;
-- (int)getInt:(NSString*)name withDefault:(int)defaultValue variations:(NSArray<NSNumber*>*)variations context:(ROXDynamicPropertyContext _Nullable)context;
+- (int)getInt:(NSString*)name withDefault:(int)defaultValue variations:(NSArray<NSNumber*>*)variations context:(ROXDynamicPropertyContext* _Nullable)context;
 
 - (double)getDouble:(NSString*)name withDefault:(double)defaultValue;
 - (double)getDouble:(NSString*)name withDefault:(double)defaultValue variations:(NSArray<NSNumber*>*)variations;
-- (double)getDouble:(NSString*)name withDefault:(double)defaultValue variations:(NSArray<NSNumber*>*)variations context:(ROXDynamicPropertyContext _Nullable)context;
+- (double)getDouble:(NSString*)name withDefault:(double)defaultValue variations:(NSArray<NSNumber*>*)variations context:(ROXDynamicPropertyContext* _Nullable)context;
 
 @end
 

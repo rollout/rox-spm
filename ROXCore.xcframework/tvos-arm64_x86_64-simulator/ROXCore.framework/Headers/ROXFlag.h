@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (readonly, nonatomic) BOOL isEnabled;
 
-- (BOOL)isEnabled:(ROXDynamicPropertyContext)context;
+- (BOOL)isEnabled:(ROXDynamicPropertyContext*)context;
 
 /**
  Runs block is flag is enabled
@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)enabled:(void (^)(void))codeBlock;
 
-- (void)enabled:(void (^)(void))codeBlock context:(ROXDynamicPropertyContext)context;
+- (void)enabled:(void (^)(void))codeBlock context:(ROXDynamicPropertyContext*)context;
 
 /**
  Runs block is flag is disabled
@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)disabled:(void (^)(void))codeBlock;
 
-- (void)disabled:(void (^)(void))codeBlock context:(ROXDynamicPropertyContext)context;
+- (void)disabled:(void (^)(void))codeBlock context:(ROXDynamicPropertyContext*)context;
 
 /**
  Runs one of the given block based on flag status
@@ -49,7 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)enabled:(void (^)(void))enabledCodeBlock disabled:(void (^)(void))disabledCodeBlock;
 
-- (void)enabled:(void (^)(void))enabledCodeBlock disabled:(void (^)(void))disabledCodeBlock context:(ROXDynamicPropertyContext)context;
+- (void)enabled:(void (^)(void))enabledCodeBlock disabled:(void (^)(void))disabledCodeBlock context:(ROXDynamicPropertyContext*)context;
 
 /**
  Force a value on the flag. This will override any other value (Experiment, Flags View Controller, etc..), and can only be overriden with another call to forceValue:

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target x86_64-apple-ios8.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ROX
 import Foundation
 import ROXCore
@@ -30,38 +30,41 @@ public class RoxEnumString<T> where T : Swift.RawRepresentable, T.RawValue == Sw
 public typealias RoxSelfManagedOptions = ROXSelfManagedOptions
 public typealias RoxOptions = ROXOptions
 public typealias RoxOptionsVerboseLevel = ROXOptionsVerboseLevel
-public typealias RoxExperiment = ROXExperiment
 public typealias RoxReportingValue = ROXReportingValue
 public typealias RoxFetcherResult = ROXFetcherResult
 public typealias RoxFreeze = ROXFreeze
+public typealias RoxExceptionTrigger = ROXExceptionTrigger
+public typealias RoxDynamicPropertyContext = ROXDynamicPropertyContext
+public typealias RoxString = ROXString
 public typealias RoxFlag = ROXFlag
 public typealias RoxInt = ROXInt
 public typealias RoxDouble = ROXDouble
 @_hasMissingDesignatedInitializers public class ROX {
   public static func setup(withKey key: Swift.String)
   public static func setup(withKey key: Swift.String, options: ROXOptions)
-  public static func register(_ namespace: Swift.String, container: RoxContainer)
+  public static func register(_ namespace: Swift.String = "", container: RoxContainer)
   public static func unfreeze()
   public static func flagsViewController() -> UIKit.UIViewController
   public static func setCustomProperty(key: Swift.String, value: Swift.String)
   public static func setCustomProperty(key: Swift.String, asSemver: Swift.Bool, value: Swift.String)
-  public static func setCustomProperty(key: Swift.String, value: @escaping (Swift.String?, (Swift.String) -> ObjectiveC.NSObject?) -> Swift.String)
+  public static func setCustomProperty(key: Swift.String, value: @escaping (Swift.String?, ROXDynamicPropertyContext?) -> Swift.String)
   public static func setCustomProperty(key: Swift.String, value: @escaping () -> Swift.String)
-  public static func setCustomProperty(key: Swift.String, asSemver: Swift.Bool, value: @escaping (Swift.String?, (Swift.String) -> ObjectiveC.NSObject?) -> Swift.String)
+  public static func setCustomProperty(key: Swift.String, asSemver: Swift.Bool, value: @escaping (Swift.String?, ROXDynamicPropertyContext?) -> Swift.String)
   public static func setCustomProperty(key: Swift.String, asSemver: Swift.Bool, value: @escaping () -> Swift.String)
   public static func setCustomProperty(key: Swift.String, value: Swift.Bool)
-  public static func setCustomProperty(key: Swift.String, value: @escaping (Swift.String?, (Swift.String) -> ObjectiveC.NSObject?) -> Swift.Bool)
+  public static func setCustomProperty(key: Swift.String, value: @escaping (Swift.String?, ROXDynamicPropertyContext?) -> Swift.Bool)
   public static func setCustomProperty(key: Swift.String, value: @escaping () -> Swift.Bool)
   public static func setCustomProperty(key: Swift.String, value: Swift.Int32)
-  public static func setCustomProperty(key: Swift.String, value: @escaping (Swift.String?, (Swift.String) -> ObjectiveC.NSObject?) -> Swift.Int32)
+  public static func setCustomProperty(key: Swift.String, value: @escaping (Swift.String?, ROXDynamicPropertyContext?) -> Swift.Int32)
   public static func setCustomProperty(key: Swift.String, value: @escaping () -> Swift.Int32)
   public static func setCustomProperty(key: Swift.String, value: Swift.Double)
-  public static func setCustomProperty(key: Swift.String, value: @escaping (Swift.String?, (Swift.String) -> ObjectiveC.NSObject?) -> Swift.Double)
+  public static func setCustomProperty(key: Swift.String, value: @escaping (Swift.String?, ROXDynamicPropertyContext?) -> Swift.Double)
   public static func setCustomProperty(key: Swift.String, value: @escaping () -> Swift.Double)
-  public static func setGlobalContext(context: @escaping (Swift.String) -> ObjectiveC.NSObject?)
+  public static func setGlobalContext(context: ROXDynamicPropertyContext)
   public static func fetch()
   public static func overrides() -> ROXFlagsOverrides
   public static func dynamicAPI() -> ROXDynamicAPI
   public static func flags() -> [ROXString]
+  public static func shutdown()
   @objc deinit
 }

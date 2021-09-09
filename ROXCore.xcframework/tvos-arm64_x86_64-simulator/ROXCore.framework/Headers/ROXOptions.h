@@ -7,7 +7,6 @@
 #import "ROXFreeze.h"
 #import "ROXFetcherResult.h"
 #import "ROXReportingValue.h"
-#import "ROXExperiment.h"
 #import "ROXSelfManagedOptions.h"
 #import "ROXDynamicPropertiesRule.h"
 

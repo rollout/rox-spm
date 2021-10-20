@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/ROXDynamicPropertiesRule.h</key>
 		<data>
-		HWOszNQ+GQiBrj3CcTG4GOOIha8=
+		/OPEzq35nTpxH0n6GmBkq9tFAkg=
 		</data>
 		<key>Headers/ROXErrorHandling.h</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		G9dKcyu9QeVx/c9VSeJDVuYeZbw=
+		AUQ5ETmoXBKoRRYQKyf+CNXZc50=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -138,11 +138,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HWOszNQ+GQiBrj3CcTG4GOOIha8=
+			/OPEzq35nTpxH0n6GmBkq9tFAkg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Un+7bGcNiOAFukyi8rZLRtn8ceugqMLnBR0UBPB0s1I=
+			u54BOkStutFeyJlQ9dIHT74rtrGl810ZAVgDGFAlga4=
 			</data>
 		</dict>
 		<key>Headers/ROXErrorHandling.h</key>

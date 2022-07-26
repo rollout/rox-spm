@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     name: "ROX",
     platforms: [
-        .iOS(.v8), .tvOS(.v10)
+        .iOS(.v9), .tvOS(.v10)
     ],
     products: [
         .library(
@@ -18,4 +18,5 @@ let package = Package(
             name: "ROXCore",
             path: "ROXCore.xcframework"
         )
-    ])
+    ]
+)

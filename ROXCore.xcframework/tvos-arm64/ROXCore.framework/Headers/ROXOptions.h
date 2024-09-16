@@ -7,8 +7,8 @@
 #import "ROXFreeze.h"
 #import "ROXFetcherResult.h"
 #import "ROXReportingValue.h"
-#import "ROXSelfManagedOptions.h"
 #import "ROXDynamicPropertiesRule.h"
+#import "ROXNetworkConfigurationsOptions.h"
 
 /**
  :nodoc:
@@ -64,7 +64,12 @@ typedef NS_ENUM (NSUInteger, ROXOptionsVerboseLevel){
 
 @property (nonatomic) ROXFreeze defaultFreezeLevel;
 
-@property (nonatomic, copy, nullable) ROXSelfManagedOptions* selfManaged;
+@property (nonatomic, copy, nullable) ROXNetworkConfigurationsOptions* networkConfigurations;
+
+/**
+ :nodoc:
+ */
+@property (nonatomic) BOOL disableSignatureVerification;
 
 @end
 

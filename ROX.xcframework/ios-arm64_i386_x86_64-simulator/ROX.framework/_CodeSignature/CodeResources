@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ROX-Swift.h</key>
 		<data>
-		tRZMNPMy/ebl8zftVijIYvvJ/pI=
+		GvZBM7NlbpzDUFoPJ+7Jppm2ZZg=
 		</data>
 		<key>Headers/RoxSdk.h</key>
 		<data>
@@ -14,79 +14,79 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dRLgO8F/0OxI6wx/eLRoAPH4fiA=
+		znUcqTI9EfpesDh5FG25LajL5Fk=
 		</data>
 		<key>Modules/ROX.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		eRTGdh4NFp7jD/VurKCxqTZJgjw=
+		ontd8Htw1OQ2aHFQFfzjROzUYsQ=
 		</data>
 		<key>Modules/ROX.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Kknk0bpQZ0UwQvI19oAaIP/XcRI=
+		uv7rGlFn45YLEvoHFeIwwa78qqU=
 		</data>
 		<key>Modules/ROX.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/9ljbK9ZlbLwhSRr/1T7CaPworY=
+		hW5IeGDUd03NgwluK7mwKUyGazs=
 		</data>
 		<key>Modules/ROX.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		eRTGdh4NFp7jD/VurKCxqTZJgjw=
+		ontd8Htw1OQ2aHFQFfzjROzUYsQ=
 		</data>
 		<key>Modules/ROX.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		Kknk0bpQZ0UwQvI19oAaIP/XcRI=
+		uv7rGlFn45YLEvoHFeIwwa78qqU=
 		</data>
 		<key>Modules/ROX.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		/9ljbK9ZlbLwhSRr/1T7CaPworY=
+		hW5IeGDUd03NgwluK7mwKUyGazs=
 		</data>
 		<key>Modules/ROX.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hZvHBsMma3KgCKni3yw/rSHob+o=
+		XGsqP3uQcfHL//P0vMJ1ZCml3NA=
 		</data>
 		<key>Modules/ROX.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		F0GtQPGhVcAmlOhXkkYejo9MyqA=
+		4UW1citF4sKdOLCeBdYaJKAXJCw=
 		</data>
 		<key>Modules/ROX.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lnSZxOrMO7MHWb3sdMNuuLjc92s=
+		vk2ighx6tAHw6odcjtGJm+UvsVc=
 		</data>
 		<key>Modules/ROX.swiftmodule/i386.swiftdoc</key>
 		<data>
-		hZvHBsMma3KgCKni3yw/rSHob+o=
+		XGsqP3uQcfHL//P0vMJ1ZCml3NA=
 		</data>
 		<key>Modules/ROX.swiftmodule/i386.swiftinterface</key>
 		<data>
-		F0GtQPGhVcAmlOhXkkYejo9MyqA=
+		4UW1citF4sKdOLCeBdYaJKAXJCw=
 		</data>
 		<key>Modules/ROX.swiftmodule/i386.swiftmodule</key>
 		<data>
-		lnSZxOrMO7MHWb3sdMNuuLjc92s=
+		vk2ighx6tAHw6odcjtGJm+UvsVc=
 		</data>
 		<key>Modules/ROX.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		eLdogJHXGYLzN1w655Ups+iR7/I=
+		rqjALisVrOWRJyvlFVDSY6YPpTw=
 		</data>
 		<key>Modules/ROX.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Cr/jl2agym+KbDqR/ItKK2fk8uQ=
+		eGLBeZkZnGBi7IaA87AatxctGBs=
 		</data>
 		<key>Modules/ROX.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UPwsWfZS2KVLdtQInnv3O1HX+VM=
+		Hid+uBoQl8Bfpi82Y/eh+IgU2us=
 		</data>
 		<key>Modules/ROX.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		eLdogJHXGYLzN1w655Ups+iR7/I=
+		rqjALisVrOWRJyvlFVDSY6YPpTw=
 		</data>
 		<key>Modules/ROX.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		Cr/jl2agym+KbDqR/ItKK2fk8uQ=
+		eGLBeZkZnGBi7IaA87AatxctGBs=
 		</data>
 		<key>Modules/ROX.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		UPwsWfZS2KVLdtQInnv3O1HX+VM=
+		Hid+uBoQl8Bfpi82Y/eh+IgU2us=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,11 +99,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tRZMNPMy/ebl8zftVijIYvvJ/pI=
+			GvZBM7NlbpzDUFoPJ+7Jppm2ZZg=
 			</data>
 			<key>hash2</key>
 			<data>
-			OU7cBahUw3bcqXTjPwykd773yMm9H2LUDXruNjmujw4=
+			tortfd8ZrVvtbzlOjIj/DFKaeQcJYXUIto44vMqj7Q4=
 			</data>
 		</dict>
 		<key>Headers/RoxSdk.h</key>
@@ -121,198 +121,198 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eRTGdh4NFp7jD/VurKCxqTZJgjw=
+			ontd8Htw1OQ2aHFQFfzjROzUYsQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZVfeaFdJ+//xh98NlYC+CqFgRgHORQFnYjkXtco4f8c=
+			ygH8LZkhQVvJlzjl/Rr7SHp+mPdwZraUTkjU6C22iNg=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kknk0bpQZ0UwQvI19oAaIP/XcRI=
+			uv7rGlFn45YLEvoHFeIwwa78qqU=
 			</data>
 			<key>hash2</key>
 			<data>
-			QOLDQw4ftmy9swFpY4nksiEw+zHNLLmb0FsmZnQagi8=
+			a2Gs8zKF0o/wcu8yMzUmEOckad+chCvPiIg2kaDfB9Y=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/9ljbK9ZlbLwhSRr/1T7CaPworY=
+			hW5IeGDUd03NgwluK7mwKUyGazs=
 			</data>
 			<key>hash2</key>
 			<data>
-			ScMnelq19gmVvlM9BtKAyNlEJH0c2g6/44z0I+H2z4U=
+			S00pTPZYvSDpt1tKn8E+j9TQ61CWr2d0UaC8CybDaqU=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eRTGdh4NFp7jD/VurKCxqTZJgjw=
+			ontd8Htw1OQ2aHFQFfzjROzUYsQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZVfeaFdJ+//xh98NlYC+CqFgRgHORQFnYjkXtco4f8c=
+			ygH8LZkhQVvJlzjl/Rr7SHp+mPdwZraUTkjU6C22iNg=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kknk0bpQZ0UwQvI19oAaIP/XcRI=
+			uv7rGlFn45YLEvoHFeIwwa78qqU=
 			</data>
 			<key>hash2</key>
 			<data>
-			QOLDQw4ftmy9swFpY4nksiEw+zHNLLmb0FsmZnQagi8=
+			a2Gs8zKF0o/wcu8yMzUmEOckad+chCvPiIg2kaDfB9Y=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/9ljbK9ZlbLwhSRr/1T7CaPworY=
+			hW5IeGDUd03NgwluK7mwKUyGazs=
 			</data>
 			<key>hash2</key>
 			<data>
-			ScMnelq19gmVvlM9BtKAyNlEJH0c2g6/44z0I+H2z4U=
+			S00pTPZYvSDpt1tKn8E+j9TQ61CWr2d0UaC8CybDaqU=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hZvHBsMma3KgCKni3yw/rSHob+o=
+			XGsqP3uQcfHL//P0vMJ1ZCml3NA=
 			</data>
 			<key>hash2</key>
 			<data>
-			F2KEL2cgoc8oybXpFXs1Pl173UFyujk/teygWRG5w8c=
+			nPHEBn1dzFzUl/42SXvJC/zXAvYhfBpzlvqbWhL/BEs=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			F0GtQPGhVcAmlOhXkkYejo9MyqA=
+			4UW1citF4sKdOLCeBdYaJKAXJCw=
 			</data>
 			<key>hash2</key>
 			<data>
-			siW6LVGBCgM0Sc87sjnqpUUGWz3kz2ypWgsnxrUtlNo=
+			SkGPOYL+VSukr9XgAYpsZj5nyyl7u3oxv6mDAjc+EGY=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lnSZxOrMO7MHWb3sdMNuuLjc92s=
+			vk2ighx6tAHw6odcjtGJm+UvsVc=
 			</data>
 			<key>hash2</key>
 			<data>
-			PNyfUGQxjmEuNF3IK6nyu6FfmIri5qYncvnIuzvelWg=
+			Jh8M+VG6RDpNCMIKOTOC7f4sFVQColUH/3Hx68JWJm8=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hZvHBsMma3KgCKni3yw/rSHob+o=
+			XGsqP3uQcfHL//P0vMJ1ZCml3NA=
 			</data>
 			<key>hash2</key>
 			<data>
-			F2KEL2cgoc8oybXpFXs1Pl173UFyujk/teygWRG5w8c=
+			nPHEBn1dzFzUl/42SXvJC/zXAvYhfBpzlvqbWhL/BEs=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			F0GtQPGhVcAmlOhXkkYejo9MyqA=
+			4UW1citF4sKdOLCeBdYaJKAXJCw=
 			</data>
 			<key>hash2</key>
 			<data>
-			siW6LVGBCgM0Sc87sjnqpUUGWz3kz2ypWgsnxrUtlNo=
+			SkGPOYL+VSukr9XgAYpsZj5nyyl7u3oxv6mDAjc+EGY=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lnSZxOrMO7MHWb3sdMNuuLjc92s=
+			vk2ighx6tAHw6odcjtGJm+UvsVc=
 			</data>
 			<key>hash2</key>
 			<data>
-			PNyfUGQxjmEuNF3IK6nyu6FfmIri5qYncvnIuzvelWg=
+			Jh8M+VG6RDpNCMIKOTOC7f4sFVQColUH/3Hx68JWJm8=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eLdogJHXGYLzN1w655Ups+iR7/I=
+			rqjALisVrOWRJyvlFVDSY6YPpTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			/yDL48gOHDzUQYMp+C8JwsZHUVBK/knPDMTQVvTUPiY=
+			py1dJrV+BHgfRyb6ZZKThVfhnylxnFV4IPEPWnA6dR4=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Cr/jl2agym+KbDqR/ItKK2fk8uQ=
+			eGLBeZkZnGBi7IaA87AatxctGBs=
 			</data>
 			<key>hash2</key>
 			<data>
-			fAAYOIQBK56lWMnmW5GCYniJaPqNPTQrfevPGq9NSFg=
+			8H2l8G7E7vq7YIbwaXDrjGDepWdivYWkqUGKMtJfar4=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UPwsWfZS2KVLdtQInnv3O1HX+VM=
+			Hid+uBoQl8Bfpi82Y/eh+IgU2us=
 			</data>
 			<key>hash2</key>
 			<data>
-			fWBsHX4WT+yih2svq1v421wERtb2Ny2TxVyoDLgMVlA=
+			5PIC2Q3h9WBXgBcHdyLjSlsLJsdvWJHZYsAPgUMNXHs=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eLdogJHXGYLzN1w655Ups+iR7/I=
+			rqjALisVrOWRJyvlFVDSY6YPpTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			/yDL48gOHDzUQYMp+C8JwsZHUVBK/knPDMTQVvTUPiY=
+			py1dJrV+BHgfRyb6ZZKThVfhnylxnFV4IPEPWnA6dR4=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Cr/jl2agym+KbDqR/ItKK2fk8uQ=
+			eGLBeZkZnGBi7IaA87AatxctGBs=
 			</data>
 			<key>hash2</key>
 			<data>
-			fAAYOIQBK56lWMnmW5GCYniJaPqNPTQrfevPGq9NSFg=
+			8H2l8G7E7vq7YIbwaXDrjGDepWdivYWkqUGKMtJfar4=
 			</data>
 		</dict>
 		<key>Modules/ROX.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UPwsWfZS2KVLdtQInnv3O1HX+VM=
+			Hid+uBoQl8Bfpi82Y/eh+IgU2us=
 			</data>
 			<key>hash2</key>
 			<data>
-			fWBsHX4WT+yih2svq1v421wERtb2Ny2TxVyoDLgMVlA=
+			5PIC2Q3h9WBXgBcHdyLjSlsLJsdvWJHZYsAPgUMNXHs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

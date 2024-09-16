@@ -54,6 +54,8 @@ typedef NS_ENUM(NSUInteger, ROXCoreState) {
  */
 +(void)setupWithKey:(NSString* _Nonnull)roxKey;
 
+
++ (BOOL) isUUIDKey:(NSString* _Nonnull)key;
 /**
  Loads the SDK, usually called as part of `-[AppDelegate application:didFinishLaunchingWithOptions:]`
  

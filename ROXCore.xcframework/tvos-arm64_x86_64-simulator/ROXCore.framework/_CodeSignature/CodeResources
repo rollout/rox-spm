@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/ROXCore.h</key>
 		<data>
-		5ZSLxfOImLct3hAzXJsfwLMbBMQ=
+		nWMQEsWxv4NLgOM098ofcLMAt9s=
 		</data>
 		<key>Headers/ROXCoreOnTV.h</key>
 		<data>
@@ -52,17 +52,17 @@
 		<data>
 		63XIzkbnjUEgZ+BnVgScF8sWlEg=
 		</data>
+		<key>Headers/ROXNetworkConfigurationsOptions.h</key>
+		<data>
+		r/sFuCoH8717fI1pYQpyLFtcfAk=
+		</data>
 		<key>Headers/ROXOptions.h</key>
 		<data>
-		vS8Uxem4VX+S614T0zBmL+ToTys=
+		7ZYNI8mR5fElQtHlMaK8GcIQ8d0=
 		</data>
 		<key>Headers/ROXReportingValue.h</key>
 		<data>
 		qwH0eqGNOS98Kphln+08bldAwaM=
-		</data>
-		<key>Headers/ROXSelfManagedOptions.h</key>
-		<data>
-		sq4v/U535q8qpvM7Gky0Vy6yznM=
 		</data>
 		<key>Headers/ROXString.h</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jtW11eD8/zQbDU2oerQk35mqrq4=
+		MBLUYixToQJlO2W06cyC3Iu/I+s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -94,11 +94,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5ZSLxfOImLct3hAzXJsfwLMbBMQ=
+			nWMQEsWxv4NLgOM098ofcLMAt9s=
 			</data>
 			<key>hash2</key>
 			<data>
-			espltX596yd9I6E5q32PXbDPU/IRfp5FoP6cxIiTvEo=
+			e4pDD4sX3/k0ob7a1F0lqaPdZSDC5lnrY52m+8CVju0=
 			</data>
 		</dict>
 		<key>Headers/ROXCoreOnTV.h</key>
@@ -211,15 +211,26 @@
 			NrnZop2pxVuAlFgB2hQvIvXHW8Iw6Pg3B3Wn07TTnrI=
 			</data>
 		</dict>
+		<key>Headers/ROXNetworkConfigurationsOptions.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			r/sFuCoH8717fI1pYQpyLFtcfAk=
+			</data>
+			<key>hash2</key>
+			<data>
+			O2avsXgKaLjVcOAWJEGHP/zoYZZ6EIn/VL46PFtM+KM=
+			</data>
+		</dict>
 		<key>Headers/ROXOptions.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vS8Uxem4VX+S614T0zBmL+ToTys=
+			7ZYNI8mR5fElQtHlMaK8GcIQ8d0=
 			</data>
 			<key>hash2</key>
 			<data>
-			1ikm2IkmtshSmfFEvy1PTlt36JVtg/95YzT30LIWjwE=
+			2sx7QxGEDrg3MlWZ6SsxICMvaLCU/TfObAQB3aCZZD0=
 			</data>
 		</dict>
 		<key>Headers/ROXReportingValue.h</key>
@@ -231,17 +242,6 @@
 			<key>hash2</key>
 			<data>
 			VFm6YFs8CSw9bU7RZpu2Ol+qrAsK64C+a19xVNko6dg=
-			</data>
-		</dict>
-		<key>Headers/ROXSelfManagedOptions.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sq4v/U535q8qpvM7Gky0Vy6yznM=
-			</data>
-			<key>hash2</key>
-			<data>
-			ntlWFufm8bYke4NzmXMlnMNRWkK4/llh5IJ8bw2fBTM=
 			</data>
 		</dict>
 		<key>Headers/ROXString.h</key>

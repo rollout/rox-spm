@@ -7,11 +7,9 @@ on:
 
 jobs:
   release:
-
-    runs-on: macos-11
+    runs-on: macos-12
 
     steps:
-
       - name: Checkout this repo
         uses: actions/checkout@v2
 
@@ -34,7 +32,7 @@ jobs:
           prerelease: false
 
       - name: Upload Release Asset
-        id: upload-release-asset 
+        id: upload-release-asset
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

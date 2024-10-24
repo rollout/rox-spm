@@ -1,5 +1,5 @@
 //
-//  ROX SDK version 6.0.4, Build 598
+//  ROX SDK version 6.0.5, Build 600
 //
 //  Copyright (c) 2017 rollout.io. All rights reserved.
 //

@@ -222,6 +222,19 @@ typedef NS_ENUM(NSUInteger, ROXCoreState) {
 +(void) setCustomComputedSemverProperty:(NSString* _Nullable (^_Nonnull)(NSString* _Nonnull, ROXDynamicPropertyContext* _Nonnull))block forKey:(NSString*_Nonnull)key;
 
 /**
+ @param key The name of the custom property
+ @param value The value of the custom property
+ 
+ */
++ (void)setCustomDateTimeProperty:(NSDate *_Nullable)value forKey:(NSString *_Nullable)key;
+/**
+ @param key  The name of the custom property
+ @param block this block will get invoked when trying to evaluate the value of the property
+ 
+ */
++ (void)setCustomComputedDateTimeProperty:(NSDate *_Nullable(^_Nullable)(NSString* _Nullable flagName, ROXDynamicPropertyContext* _Nullable context))block forKey:(NSString *_Nullable)key;
+
+/**
   Sets a dynamic property context that will be used as a default for each flag evaluation.
  */
 +(void) setGlobalDynamicPropertyContext:(ROXDynamicPropertyContext* _Nullable)context;

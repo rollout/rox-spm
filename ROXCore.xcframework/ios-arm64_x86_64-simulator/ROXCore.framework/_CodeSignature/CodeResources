@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/ROXCore.h</key>
 		<data>
-		nWMQEsWxv4NLgOM098ofcLMAt9s=
+		9Nd21VAPnNdJAblF6XWMyoj607A=
 		</data>
 		<key>Headers/ROXDouble.h</key>
 		<data>
@@ -66,21 +66,17 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qUD0S2LaQOepXABhrbC9fHkHJ/4=
+		Mrv+kCgZ3fRXFJrQLVua/7l4JE0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		VXr78p458yxrm4UmzkUvAcbDZMQ=
+		1p4ICRIALWADevGuG2bPj63NhRE=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/ROXBaseContainer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Q7GRv3NKj91T+pM0QPRMMeiiR8k=
-			</data>
 			<key>hash2</key>
 			<data>
 			F6H9sS/WKq6HgI2WWF8lW6FGMe792vXXmgBf5ZMOasQ=
@@ -88,21 +84,13 @@
 		</dict>
 		<key>Headers/ROXCore.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nWMQEsWxv4NLgOM098ofcLMAt9s=
-			</data>
 			<key>hash2</key>
 			<data>
-			e4pDD4sX3/k0ob7a1F0lqaPdZSDC5lnrY52m+8CVju0=
+			amhhapOBG/vn2N/E+Nio7pFvIUH697w/tIHBsKlX34I=
 			</data>
 		</dict>
 		<key>Headers/ROXDouble.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HkKeGCnSdXUBoDSJ4Ugq4OsGEsA=
-			</data>
 			<key>hash2</key>
 			<data>
 			6YsxTw4p5ZSE093EdMjvIz+uif4rHPzHbCl5jB1r3SQ=
@@ -110,10 +98,6 @@
 		</dict>
 		<key>Headers/ROXDynamicAPI.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lC0sUVM+rpyuhZNu+h0YPLrYv6Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			8pN3acqj6lbJyyaIulRutBwkRmXMhDrlhgrA4s0Bq+0=
@@ -121,10 +105,6 @@
 		</dict>
 		<key>Headers/ROXDynamicPropertiesRule.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/OPEzq35nTpxH0n6GmBkq9tFAkg=
-			</data>
 			<key>hash2</key>
 			<data>
 			u54BOkStutFeyJlQ9dIHT74rtrGl810ZAVgDGFAlga4=
@@ -132,10 +112,6 @@
 		</dict>
 		<key>Headers/ROXErrorHandling.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			58PDFRdUGwMJw9XlUCyii3tbQrc=
-			</data>
 			<key>hash2</key>
 			<data>
 			NCN1xVGC5evTmSYRrRtd/aYyMeHdrQc7jMb15JSM2wE=
@@ -143,10 +119,6 @@
 		</dict>
 		<key>Headers/ROXFetcherResult.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1fzG29JngorAIkwERPqk1TfKXMs=
-			</data>
 			<key>hash2</key>
 			<data>
 			O1nL2CQyTkdkwiLWGvhrpEPLubrmwgh9xyR1g2R+5Dw=
@@ -154,10 +126,6 @@
 		</dict>
 		<key>Headers/ROXFlag.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Dgf7xiFn3cKICeoaYbKnWzXp2Kw=
-			</data>
 			<key>hash2</key>
 			<data>
 			0RKdkTanojWdXyGijBdWc3rm/al/KLn23xkzQ8FFIi0=
@@ -165,10 +133,6 @@
 		</dict>
 		<key>Headers/ROXFlagsOverrides.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/GWw7HUmegzHuY3WCQSsENQm1ZM=
-			</data>
 			<key>hash2</key>
 			<data>
 			IZwnDw8HbQDiqQ8zLSYrDa+ms4kNlrhthj/ZgdLGcEg=
@@ -176,10 +140,6 @@
 		</dict>
 		<key>Headers/ROXFreeze.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			X4IOD8lgXqI4WQkHNjofzouFgJk=
-			</data>
 			<key>hash2</key>
 			<data>
 			nly7Qlm8koMwIvcJcyjh3cZVOU08cxxERpfTiMunp4M=
@@ -187,10 +147,6 @@
 		</dict>
 		<key>Headers/ROXInt.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			63XIzkbnjUEgZ+BnVgScF8sWlEg=
-			</data>
 			<key>hash2</key>
 			<data>
 			NrnZop2pxVuAlFgB2hQvIvXHW8Iw6Pg3B3Wn07TTnrI=
@@ -198,10 +154,6 @@
 		</dict>
 		<key>Headers/ROXNetworkConfigurationsOptions.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r/sFuCoH8717fI1pYQpyLFtcfAk=
-			</data>
 			<key>hash2</key>
 			<data>
 			O2avsXgKaLjVcOAWJEGHP/zoYZZ6EIn/VL46PFtM+KM=
@@ -209,10 +161,6 @@
 		</dict>
 		<key>Headers/ROXOptions.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7ZYNI8mR5fElQtHlMaK8GcIQ8d0=
-			</data>
 			<key>hash2</key>
 			<data>
 			2sx7QxGEDrg3MlWZ6SsxICMvaLCU/TfObAQB3aCZZD0=
@@ -220,10 +168,6 @@
 		</dict>
 		<key>Headers/ROXReportingValue.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qwH0eqGNOS98Kphln+08bldAwaM=
-			</data>
 			<key>hash2</key>
 			<data>
 			VFm6YFs8CSw9bU7RZpu2Ol+qrAsK64C+a19xVNko6dg=
@@ -231,10 +175,6 @@
 		</dict>
 		<key>Headers/ROXString.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Fl7EKLFVqiR9XN0jygLN5vJIa9Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			bVCGEeNZIP1biggtrSGilFnh0Ist3mz//3JaRwBolDQ=
@@ -242,13 +182,9 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VXr78p458yxrm4UmzkUvAcbDZMQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			3Hr//Lm91zL5nXaXscL4UyUlMevud7Jt6Zb6pf3KS/U=
+			Y7JsXbUxLeBLzpfVuWz8+ST4XpaedE48C43kcNN9Et8=
 			</data>
 		</dict>
 	</dict>

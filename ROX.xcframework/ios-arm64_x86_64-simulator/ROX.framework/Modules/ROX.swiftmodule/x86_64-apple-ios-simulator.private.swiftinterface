@@ -1,13 +1,20 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-tvos10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ROX
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ROX
 import Foundation
-@_exported import ROX
 import ROXCore
 import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public protocol RoxContainer : AnyObject {
+  var namespace: Swift.String? { get }
+}
+extension RoxContainer {
+  public var namespace: Swift.String? {
+    get
+  }
+}
 public class RoxEnumString<T> where T : Swift.RawRepresentable, T.RawValue == Swift.Int {
   public init(_ defaultValue: T)
   public init(_ defaultValue: T, freeze: ROXFreeze)
@@ -78,12 +85,4 @@ public typealias RoxDouble = ROXDouble
   public static func flags() -> [ROXString]
   public static func shutdown()
   @objc deinit
-}
-public protocol RoxContainer : AnyObject {
-  var namespace: Swift.String? { get }
-}
-extension RoxContainer {
-  public var namespace: Swift.String? {
-    get
-  }
 }

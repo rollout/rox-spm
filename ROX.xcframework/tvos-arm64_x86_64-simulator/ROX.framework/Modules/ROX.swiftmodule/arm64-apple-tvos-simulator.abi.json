@@ -1,0 +1,1908 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ROX"
+      },
+      {
+        "kind": "Import",
+        "name": "ROXCore",
+        "printedName": "ROXCore",
+        "declKind": "Import",
+        "moduleName": "ROX"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RoxEnumString",
+        "printedName": "RoxEnumString",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RoxEnumString",
+                "printedName": "ROX.RoxEnumString<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:3ROX13RoxEnumStringC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:3ROX13RoxEnumStringCyACyxGxcfc",
+            "mangledName": "$s3ROX13RoxEnumStringCyACyxGxcfc",
+            "moduleName": "ROX",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.RawRepresentable, τ_0_0.RawValue == Swift.Int>",
+            "sugared_genericSig": "<T where T : Swift.RawRepresentable, T.RawValue == Swift.Int>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:freeze:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RoxEnumString",
+                "printedName": "ROX.RoxEnumString<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:3ROX13RoxEnumStringC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ROXFreeze",
+                "printedName": "ROXCore.ROXFreeze",
+                "usr": "c:@E@ROXFreeze"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:3ROX13RoxEnumStringC_6freezeACyxGx_So9ROXFreezeVtcfc",
+            "mangledName": "$s3ROX13RoxEnumStringC_6freezeACyxGx_So9ROXFreezeVtcfc",
+            "moduleName": "ROX",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.RawRepresentable, τ_0_0.RawValue == Swift.Int>",
+            "sugared_genericSig": "<T where T : Swift.RawRepresentable, T.RawValue == Swift.Int>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:3ROX13RoxEnumStringC5valuexvp",
+            "mangledName": "$s3ROX13RoxEnumStringC5valuexvp",
+            "moduleName": "ROX",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3ROX13RoxEnumStringC5valuexvg",
+                "mangledName": "$s3ROX13RoxEnumStringC5valuexvg",
+                "moduleName": "ROX",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.RawRepresentable, τ_0_0.RawValue == Swift.Int>",
+                "sugared_genericSig": "<T where T : Swift.RawRepresentable, T.RawValue == Swift.Int>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:3ROX13RoxEnumStringC4nameSSvp",
+            "mangledName": "$s3ROX13RoxEnumStringC4nameSSvp",
+            "moduleName": "ROX",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3ROX13RoxEnumStringC4nameSSvg",
+                "mangledName": "$s3ROX13RoxEnumStringC4nameSSvg",
+                "moduleName": "ROX",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.RawRepresentable, τ_0_0.RawValue == Swift.Int>",
+                "sugared_genericSig": "<T where T : Swift.RawRepresentable, T.RawValue == Swift.Int>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "objcBridge",
+            "printedName": "objcBridge",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ROXString",
+                "printedName": "ROXCore.ROXString",
+                "usr": "c:objc(cs)ROXString"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:3ROX13RoxEnumStringC10objcBridgeSo9ROXStringCvp",
+            "mangledName": "$s3ROX13RoxEnumStringC10objcBridgeSo9ROXStringCvp",
+            "moduleName": "ROX",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ROXString",
+                    "printedName": "ROXCore.ROXString",
+                    "usr": "c:objc(cs)ROXString"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3ROX13RoxEnumStringC10objcBridgeSo9ROXStringCvg",
+                "mangledName": "$s3ROX13RoxEnumStringC10objcBridgeSo9ROXStringCvg",
+                "moduleName": "ROX",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.RawRepresentable, τ_0_0.RawValue == Swift.Int>",
+                "sugared_genericSig": "<T where T : Swift.RawRepresentable, T.RawValue == Swift.Int>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "unfreeze",
+            "printedName": "unfreeze()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROX13RoxEnumStringC8unfreezeyyF",
+            "mangledName": "$s3ROX13RoxEnumStringC8unfreezeyyF",
+            "moduleName": "ROX",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.RawRepresentable, τ_0_0.RawValue == Swift.Int>",
+            "sugared_genericSig": "<T where T : Swift.RawRepresentable, T.RawValue == Swift.Int>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:3ROX13RoxEnumStringC",
+        "mangledName": "$s3ROX13RoxEnumStringC",
+        "moduleName": "ROX",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.RawRepresentable, τ_0_0.RawValue == Swift.Int>",
+        "sugared_genericSig": "<T where T : Swift.RawRepresentable, T.RawValue == Swift.Int>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ROX"
+      },
+      {
+        "kind": "Import",
+        "name": "ROXCore",
+        "printedName": "ROXCore",
+        "declKind": "Import",
+        "moduleName": "ROX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ROX"
+      },
+      {
+        "kind": "Import",
+        "name": "ROXCore",
+        "printedName": "ROXCore",
+        "declKind": "Import",
+        "moduleName": "ROX"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ROXInstance",
+        "printedName": "ROXInstance",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sdkKey",
+            "printedName": "sdkKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:3ROX11ROXInstanceC6sdkKeySSvp",
+            "mangledName": "$s3ROX11ROXInstanceC6sdkKeySSvp",
+            "moduleName": "ROX",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3ROX11ROXInstanceC6sdkKeySSvg",
+                "mangledName": "$s3ROX11ROXInstanceC6sdkKeySSvg",
+                "moduleName": "ROX",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(withOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ROXOptions",
+                "printedName": "ROXCore.ROXOptions",
+                "usr": "c:objc(cs)ROXOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROX11ROXInstanceC5setup11withOptionsySo10ROXOptionsC_tF",
+            "mangledName": "$s3ROX11ROXInstanceC5setup11withOptionsySo10ROXOptionsC_tF",
+            "moduleName": "ROX",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(_:container:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RoxContainer",
+                "printedName": "any ROX.RoxContainer",
+                "usr": "s:3ROX12RoxContainerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROX11ROXInstanceC8register_9containerySS_AA12RoxContainer_ptF",
+            "mangledName": "$s3ROX11ROXInstanceC8register_9containerySS_AA12RoxContainer_ptF",
+            "moduleName": "ROX",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetch",
+            "printedName": "fetch()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROX11ROXInstanceC5fetchyyF",
+            "mangledName": "$s3ROX11ROXInstanceC5fetchyyF",
+            "moduleName": "ROX",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shutdown",
+            "printedName": "shutdown()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROX11ROXInstanceC8shutdownyyF",
+            "mangledName": "$s3ROX11ROXInstanceC8shutdownyyF",
+            "moduleName": "ROX",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROX11ROXInstanceC17setCustomProperty3key5valueySS_SStF",
+            "mangledName": "$s3ROX11ROXInstanceC17setCustomProperty3key5valueySS_SStF",
+            "moduleName": "ROX",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROX11ROXInstanceC17setCustomProperty3key5valueySS_SbtF",
+            "mangledName": "$s3ROX11ROXInstanceC17setCustomProperty3key5valueySS_SbtF",
+            "moduleName": "ROX",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROX11ROXInstanceC17setCustomProperty3key5valueySS_SitF",
+            "mangledName": "$s3ROX11ROXInstanceC17setCustomProperty3key5valueySS_SitF",
+            "moduleName": "ROX",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROX11ROXInstanceC17setCustomProperty3key5valueySS_SdtF",
+            "mangledName": "$s3ROX11ROXInstanceC17setCustomProperty3key5valueySS_SdtF",
+            "moduleName": "ROX",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:3ROX11ROXInstanceC",
+        "mangledName": "$s3ROX11ROXInstanceC",
+        "moduleName": "ROX",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ROX",
+        "printedName": "ROX",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(withKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC5setup7withKeyySS_tFZ",
+            "mangledName": "$s3ROXAAC5setup7withKeyySS_tFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(withKey:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ROXOptions",
+                "printedName": "ROXCore.ROXOptions",
+                "usr": "c:objc(cs)ROXOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC5setup7withKey7optionsySS_So10ROXOptionsCtFZ",
+            "mangledName": "$s3ROXAAC5setup7withKey7optionsySS_So10ROXOptionsCtFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "instance",
+            "printedName": "instance(withKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ROXInstance",
+                "printedName": "ROX.ROXInstance",
+                "usr": "s:3ROX11ROXInstanceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC8instance7withKeyAA11ROXInstanceCSS_tFZ",
+            "mangledName": "$s3ROXAAC8instance7withKeyAA11ROXInstanceCSS_tFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(_:container:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RoxContainer",
+                "printedName": "any ROX.RoxContainer",
+                "usr": "s:3ROX12RoxContainerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC8register_9containerySS_AA12RoxContainer_ptFZ",
+            "mangledName": "$s3ROXAAC8register_9containerySS_AA12RoxContainer_ptFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unfreeze",
+            "printedName": "unfreeze()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC8unfreezeyyFZ",
+            "mangledName": "$s3ROXAAC8unfreezeyyFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flagsViewController",
+            "printedName": "flagsViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC19flagsViewControllerSo06UIViewD0CyFZ",
+            "mangledName": "$s3ROXAAC19flagsViewControllerSo06UIViewD0CyFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC17setCustomProperty3key5valueySS_SStFZ",
+            "mangledName": "$s3ROXAAC17setCustomProperty3key5valueySS_SStFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:asSemver:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC17setCustomProperty3key8asSemver5valueySS_SbSStFZ",
+            "mangledName": "$s3ROXAAC17setCustomProperty3key8asSemver5valueySS_SbSStFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, ROXCore.ROXDynamicPropertyContext?) -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, ROXCore.ROXDynamicPropertyContext?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ROXCore.ROXDynamicPropertyContext?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ROXDynamicPropertyContext",
+                            "printedName": "ROXCore.ROXDynamicPropertyContext",
+                            "usr": "c:objc(cs)ROXDynamicPropertyContext"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC17setCustomProperty3key5valueySS_S2SSg_So010ROXDynamicD7ContextCSgtctFZ",
+            "mangledName": "$s3ROXAAC17setCustomProperty3key5valueySS_S2SSg_So010ROXDynamicD7ContextCSgtctFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC17setCustomProperty3key5valueySS_SSyctFZ",
+            "mangledName": "$s3ROXAAC17setCustomProperty3key5valueySS_SSyctFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:asSemver:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, ROXCore.ROXDynamicPropertyContext?) -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, ROXCore.ROXDynamicPropertyContext?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ROXCore.ROXDynamicPropertyContext?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ROXDynamicPropertyContext",
+                            "printedName": "ROXCore.ROXDynamicPropertyContext",
+                            "usr": "c:objc(cs)ROXDynamicPropertyContext"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC17setCustomProperty3key8asSemver5valueySS_SbS2SSg_So010ROXDynamicD7ContextCSgtctFZ",
+            "mangledName": "$s3ROXAAC17setCustomProperty3key8asSemver5valueySS_SbS2SSg_So010ROXDynamicD7ContextCSgtctFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:asSemver:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC17setCustomProperty3key8asSemver5valueySS_SbSSyctFZ",
+            "mangledName": "$s3ROXAAC17setCustomProperty3key8asSemver5valueySS_SbSSyctFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC17setCustomProperty3key5valueySS_SbtFZ",
+            "mangledName": "$s3ROXAAC17setCustomProperty3key5valueySS_SbtFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, ROXCore.ROXDynamicPropertyContext?) -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, ROXCore.ROXDynamicPropertyContext?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ROXCore.ROXDynamicPropertyContext?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ROXDynamicPropertyContext",
+                            "printedName": "ROXCore.ROXDynamicPropertyContext",
+                            "usr": "c:objc(cs)ROXDynamicPropertyContext"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC17setCustomProperty3key5valueySS_SbSSSg_So010ROXDynamicD7ContextCSgtctFZ",
+            "mangledName": "$s3ROXAAC17setCustomProperty3key5valueySS_SbSSSg_So010ROXDynamicD7ContextCSgtctFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC17setCustomProperty3key5valueySS_SbyctFZ",
+            "mangledName": "$s3ROXAAC17setCustomProperty3key5valueySS_SbyctFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC17setCustomProperty3key5valueySS_s5Int32VtFZ",
+            "mangledName": "$s3ROXAAC17setCustomProperty3key5valueySS_s5Int32VtFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, ROXCore.ROXDynamicPropertyContext?) -> Swift.Int32",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, ROXCore.ROXDynamicPropertyContext?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ROXCore.ROXDynamicPropertyContext?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ROXDynamicPropertyContext",
+                            "printedName": "ROXCore.ROXDynamicPropertyContext",
+                            "usr": "c:objc(cs)ROXDynamicPropertyContext"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC17setCustomProperty3key5valueySS_s5Int32VSSSg_So010ROXDynamicD7ContextCSgtctFZ",
+            "mangledName": "$s3ROXAAC17setCustomProperty3key5valueySS_s5Int32VSSSg_So010ROXDynamicD7ContextCSgtctFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.Int32",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC17setCustomProperty3key5valueySS_s5Int32VyctFZ",
+            "mangledName": "$s3ROXAAC17setCustomProperty3key5valueySS_s5Int32VyctFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC17setCustomProperty3key5valueySS_SdtFZ",
+            "mangledName": "$s3ROXAAC17setCustomProperty3key5valueySS_SdtFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, ROXCore.ROXDynamicPropertyContext?) -> Swift.Double",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, ROXCore.ROXDynamicPropertyContext?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ROXCore.ROXDynamicPropertyContext?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ROXDynamicPropertyContext",
+                            "printedName": "ROXCore.ROXDynamicPropertyContext",
+                            "usr": "c:objc(cs)ROXDynamicPropertyContext"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC17setCustomProperty3key5valueySS_SdSSSg_So010ROXDynamicD7ContextCSgtctFZ",
+            "mangledName": "$s3ROXAAC17setCustomProperty3key5valueySS_SdSSSg_So010ROXDynamicD7ContextCSgtctFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomProperty",
+            "printedName": "setCustomProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.Double",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC17setCustomProperty3key5valueySS_SdyctFZ",
+            "mangledName": "$s3ROXAAC17setCustomProperty3key5valueySS_SdyctFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGlobalContext",
+            "printedName": "setGlobalContext(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ROXDynamicPropertyContext",
+                "printedName": "ROXCore.ROXDynamicPropertyContext",
+                "usr": "c:objc(cs)ROXDynamicPropertyContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC16setGlobalContext7contextySo018ROXDynamicPropertyD0C_tFZ",
+            "mangledName": "$s3ROXAAC16setGlobalContext7contextySo018ROXDynamicPropertyD0C_tFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetch",
+            "printedName": "fetch()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC5fetchyyFZ",
+            "mangledName": "$s3ROXAAC5fetchyyFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "overrides",
+            "printedName": "overrides()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ROXFlagsOverrides",
+                "printedName": "ROXCore.ROXFlagsOverrides",
+                "usr": "c:objc(cs)ROXFlagsOverrides"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC9overridesSo17ROXFlagsOverridesCyFZ",
+            "mangledName": "$s3ROXAAC9overridesSo17ROXFlagsOverridesCyFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dynamicAPI",
+            "printedName": "dynamicAPI()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ROXDynamicAPI",
+                "printedName": "ROXCore.ROXDynamicAPI",
+                "usr": "c:objc(cs)ROXDynamicAPI"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC10dynamicAPISo010ROXDynamicC0CyFZ",
+            "mangledName": "$s3ROXAAC10dynamicAPISo010ROXDynamicC0CyFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flags",
+            "printedName": "flags()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ROXCore.ROXString]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ROXString",
+                    "printedName": "ROXCore.ROXString",
+                    "usr": "c:objc(cs)ROXString"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC5flagsSaySo9ROXStringCGyFZ",
+            "mangledName": "$s3ROXAAC5flagsSaySo9ROXStringCGyFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shutdown",
+            "printedName": "shutdown()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3ROXAAC8shutdownyyFZ",
+            "mangledName": "$s3ROXAAC8shutdownyyFZ",
+            "moduleName": "ROX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:3ROXAAC",
+        "mangledName": "$s3ROXAAC",
+        "moduleName": "ROX",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ROX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ROX"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RoxContainer",
+        "printedName": "RoxContainer",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "namespace",
+            "printedName": "namespace",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:3ROX12RoxContainerP9namespaceSSSgvp",
+            "mangledName": "$s3ROX12RoxContainerP9namespaceSSSgvp",
+            "moduleName": "ROX",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3ROX12RoxContainerP9namespaceSSSgvg",
+                "mangledName": "$s3ROX12RoxContainerP9namespaceSSSgvg",
+                "moduleName": "ROX",
+                "genericSig": "<τ_0_0 where τ_0_0 : ROX.RoxContainer>",
+                "sugared_genericSig": "<Self where Self : ROX.RoxContainer>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "namespace",
+            "printedName": "namespace",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:3ROX12RoxContainerPAAE9namespaceSSSgvp",
+            "mangledName": "$s3ROX12RoxContainerPAAE9namespaceSSSgvp",
+            "moduleName": "ROX",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3ROX12RoxContainerPAAE9namespaceSSSgvg",
+                "mangledName": "$s3ROX12RoxContainerPAAE9namespaceSSSgvg",
+                "moduleName": "ROX",
+                "genericSig": "<τ_0_0 where τ_0_0 : ROX.RoxContainer>",
+                "sugared_genericSig": "<Self where Self : ROX.RoxContainer>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:3ROX12RoxContainerP",
+        "mangledName": "$s3ROX12RoxContainerP",
+        "moduleName": "ROX",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/os-sdk_ios-release_release_6.0.7\/rollout\/Rollout-X-SDK\/RoxSdk\/RoxSdk\/ROX.swift",
+      "kind": "StringLiteral",
+      "offset": 4024,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/os-sdk_ios-release_release_6.0.7\/rollout\/Rollout-X-SDK\/RoxSdk\/RoxSdk\/ROX.swift",
+      "kind": "StringLiteral",
+      "offset": 8625,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

@@ -11,7 +11,7 @@
 /**
  A container class for configurations and flags
  
- Any class that inherits from this base class can be used as an entry point for flags and configurations that are controlled by ROX system. To use an instance of this class you need to register the instance using the `+[ROXCore register:]`
+ Any class that inherits from this base class can be used as an entry point for flags and configurations that are controlled by the ROX system. To use an instance of this class, you need to register the instance using the `+[ROXCore register:]`
   method and retrieve the instance using `+[ROXCore get:]` method
  
 

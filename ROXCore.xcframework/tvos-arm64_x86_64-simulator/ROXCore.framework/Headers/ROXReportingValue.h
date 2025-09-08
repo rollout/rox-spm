@@ -10,7 +10,7 @@
 #import "ROXDynamicPropertiesRule.h"
 
 /**
- This class contains data about values of an experiement
+ This class contains data about the values of an experiment.
  
  @see `ROXOMetadata`
  */

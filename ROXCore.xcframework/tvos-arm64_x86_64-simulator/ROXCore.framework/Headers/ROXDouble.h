@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface ROXDouble : ROXString
 
 /**
- Force a value on the flag. This will override any other value (Experiment, Flags View Controller, etc..), and can only be overriden with another call to forceValue:
+ Force a value on the flag. This will override any other value (Experiment, Flags View Controller, etc), and can only be overridden with another call to forceValue:
  
  @param value to force the sdk with
  */

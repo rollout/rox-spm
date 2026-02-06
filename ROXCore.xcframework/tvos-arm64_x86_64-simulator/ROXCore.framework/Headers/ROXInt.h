@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface ROXInt : ROXString
 
 /**
- Force a value on the flag. This will override any other value (Experiment, Flags View Controller, etc..), and can only be overriden with another call to forceValue:
+ Forces the flag to return the specified value. This overrides any other evaluated value (for example, from an experiment, view controller, or default), and can only be changed by calling `forceValue:` again with a new value.
  
  @param value to force the sdk with
  */

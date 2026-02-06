@@ -9,6 +9,18 @@
 #import <Foundation/Foundation.h>
 #import "ROXFreeze.h"
 #import "ROXDynamicPropertiesRule.h"
+
+@class ROXString;
+@class EvaluationContext;
+
+@protocol ROXStringDelegate <NSObject>
+
+/**
+ * Called when a flag is evaluated/impressed with a specific value
+ */
+- (void)flagImpressed:(ROXString *)flag withValue:(NSString *)value context:(EvaluationContext *)context;
+
+@end
 /**
  :nodoc:
  */
@@ -20,6 +32,7 @@
 NS_ASSUME_NONNULL_BEGIN
 @property (readonly, nonatomic) NSString* name;
 @property (readonly, nonatomic) NSArray<NSString*>* variations;
+@property (weak, nonatomic) id<ROXStringDelegate> delegate;
 
 - (instancetype)initWithDefault:(NSString*)defaultValue;
 - (instancetype)initWithDefault:(NSString*)defaultValue variations:(NSArray<NSString*>*)variations;

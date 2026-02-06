@@ -10,38 +10,38 @@
 #import "ROXString.h"
 
 /**
- This class is the API for flags that are controlled by ROX server, Flags are assigned to an experiment and their value is based on experiment container.
+ This class is the API for flags that are controlled by the ROX server. Flags are assigned to an experiment, and their value is based on the  experiment container.
  */
 
 @interface ROXFlag : ROXString
 NS_ASSUME_NONNULL_BEGIN
 /**
- a property to indicate if the flag is enabled or disabled
+ a property to indicate if the flag is enabled or disabled.
  */
 @property (readonly, nonatomic) BOOL isEnabled;
 
 - (BOOL)isEnabled:(ROXDynamicPropertyContext*)context;
 
 /**
- Runs block is flag is enabled
+ Executes the given block if the flag is enabled.
  
- @param codeBlock will get invoked (synchronously) if flag is enabled
+ @param codeBlock The block to invoke(synchronously) when the flag is enabled.
  */
 - (void)enabled:(void (^)(void))codeBlock;
 
 - (void)enabled:(void (^)(void))codeBlock context:(ROXDynamicPropertyContext*)context;
 
 /**
- Runs block is flag is disabled
+ Executes the given block if the flag is disabled.
  
- @param codeBlock will get invoked (synchronously) if flag is disabled
+ @param codeBlock The block to invoke (synchronously) when the flag is disabled.
  */
 - (void)disabled:(void (^)(void))codeBlock;
 
 - (void)disabled:(void (^)(void))codeBlock context:(ROXDynamicPropertyContext*)context;
 
 /**
- Runs one of the given block based on flag status
+ Executes one of the provided blocks based on the current state of the flag.
  
  @param enabledCodeBlock will get invoked (synchronously) if flag is enabled
  @param disabledCodeBlock will get invoked (synchronously) if flag is disabled
@@ -52,7 +52,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)enabled:(void (^)(void))enabledCodeBlock disabled:(void (^)(void))disabledCodeBlock context:(ROXDynamicPropertyContext*)context;
 
 /**
- Force a value on the flag. This will override any other value (Experiment, Flags View Controller, etc..), and can only be overriden with another call to forceValue:
+ Forces the flag to return the specified value. This overrides any other evaluated value (for example, from an experiment, view controller, or default), and can only be changed by calling `forceValue:` again with a new value.
  
  @param value to force the sdk with
  */

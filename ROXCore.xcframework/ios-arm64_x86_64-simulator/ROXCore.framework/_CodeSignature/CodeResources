@@ -12,10 +12,6 @@
 		<data>
 		DWD51KoOBr1JxmT1yH71z56HZKg=
 		</data>
-		<key>Headers/ROXCoreOnTV.h</key>
-		<data>
-		ue85OJ/soPQxB5fWEhlnS/VYHm0=
-		</data>
 		<key>Headers/ROXDouble.h</key>
 		<data>
 		bQTnifY9JJZ2/aN58jUrFfNy7jM=
@@ -70,11 +66,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nYN182XGUuoQ3BDL8b5MQNuofs8=
+		Mrv+kCgZ3fRXFJrQLVua/7l4JE0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		PTokq4UNuKIZaXjEKFc8u9FWxxU=
+		1p4ICRIALWADevGuG2bPj63NhRE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -91,13 +87,6 @@
 			<key>hash2</key>
 			<data>
 			u+XWqE2X0qtNAhAzd0uU35F4b1QU1ql7WkNut2xM5aE=
-			</data>
-		</dict>
-		<key>Headers/ROXCoreOnTV.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			360WjcF609SgtkmLIIU0jCZwOTS/672mbekl7rFAryo=
 			</data>
 		</dict>
 		<key>Headers/ROXDouble.h</key>
@@ -195,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O7k4nt4D6fGjN6mMHGvM2gtLkTNgqGPnQ5hzmmzIQoc=
+			Y7JsXbUxLeBLzpfVuWz8+ST4XpaedE48C43kcNN9Et8=
 			</data>
 		</dict>
 	</dict>

@@ -1940,14 +1940,14 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jenkins\/workspace\/os-sdk_ios-release_release_6.1.0\/rollout\/Rollout-X-SDK\/RoxSdk\/RoxSdk\/ROX.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/os-sdk_ios-release_release_6.1.1\/rollout\/Rollout-X-SDK\/RoxSdk\/RoxSdk\/ROX.swift",
       "kind": "StringLiteral",
       "offset": 4024,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jenkins\/workspace\/os-sdk_ios-release_release_6.1.0\/rollout\/Rollout-X-SDK\/RoxSdk\/RoxSdk\/ROX.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/os-sdk_ios-release_release_6.1.1\/rollout\/Rollout-X-SDK\/RoxSdk\/RoxSdk\/ROX.swift",
       "kind": "StringLiteral",
       "offset": 9666,
       "length": 2,

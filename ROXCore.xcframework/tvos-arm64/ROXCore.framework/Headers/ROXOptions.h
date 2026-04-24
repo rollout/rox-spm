@@ -71,5 +71,14 @@ typedef NS_ENUM (NSUInteger, ROXOptionsVerboseLevel){
  */
 @property (nonatomic) BOOL disableSignatureVerification;
 
+/**
+ Optional App Group identifier for sharing device ID between main app and extensions.
+ Set this to ensure consistent user identification across all app targets.
+ Requires App Group capability in entitlements.
+
+ Example: @c options.appGroupIdentifier = @"group.com.yourcompany.app";
+ */
+@property (nonatomic, copy, nullable) NSString *appGroupIdentifier;
+
 @end
 
